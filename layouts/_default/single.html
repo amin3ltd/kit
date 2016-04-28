@@ -3,12 +3,12 @@
 <div class="container">
 
     <h1>{{ .Title }}</h1>
-    <h4>{{ .Date.Format "Mon, Jan 2, 2006" }}</h4>
+    {{ partial "article_metadata" . }}
     <div class="post">
         {{ .Content }}
     </div>
 
-    {{ partial "section_metadata.html" . }}
+    {{ partial "section_item_pager.html" . }}
 
     {{ partial "footer_container.html" . }}
 
