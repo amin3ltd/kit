@@ -1,7 +1,6 @@
 <div class="article-metadata">
 
     <span class="article-date">
-        <i class="fa fa-calendar"></i>
         <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.date_format }}</time>
     </span>
 
@@ -11,11 +10,15 @@
     <span class="article-tags">
         <i class="fa fa-tags"></i>
         {{ range $k, $v := .Params.tags }}
-        <a class="article-tag-link" href="{{ $.Site.BaseURL }}tags/{{ . | urlize | lower }}">{{ . }}</a>
-        {{ if lt $k (sub $tagsLen 1) }}, {{ end }}
+        <a class="article-tag-link" href="{{ $.Site.BaseURL }}tags/{{ . | urlize | lower }}">{{ . }}</a>{{ if lt $k (sub $tagsLen 1) }}, {{ end }}
         {{ end }}
     </span>
     {{ end }}
     {{ end }}
+
+
+    <div class="pull-right">
+        {{ partial "share.html" . }}
+    </div>
 
 </div>
