@@ -5,8 +5,8 @@
 {{/* Initialise */}}
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
-{{ $columns := $block.Params.design.columns | default $block.design.columns | default "2" }}
-{{ $text := $block.Content | default ($block.content.text | emojify | markdownify) }}
+{{ $columns := $block.design.columns | default "2" }}
+{{ $text := $block.content.text | emojify | markdownify }}
 
 {{ if ne $columns "1" }}
   <div class="col-12 col-lg-8">
