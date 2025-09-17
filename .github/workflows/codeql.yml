@@ -1,4 +1,5 @@
 name: Security - CodeQL
+run-name: ${{ github.workflow }} - ${{ github.ref_name }}
 
 on:
   schedule:
