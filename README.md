@@ -1,30 +1,30 @@
 [**中文**](./README.zh.md)
 
 <p align="center">
-  <a href="https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=hero">
-    <img src="./.github/media/hero.png" alt="HugoBlox — AI-generated sites you own as Markdown" width="100%">
+  <a href="https://amin3ltd.com/templates/?utm_source=github&utm_medium=readme&utm_content=hero">
+    <img src="./.github/media/hero.png" alt="amin3ltd — AI-generated sites you own as Markdown" width="100%">
   </a>
 </p>
 
 <h1 align="center">Describe your site. AI builds it. You own it as Markdown.</h1>
 
 <p align="center">
-  <strong>HugoBlox is the open-source framework for building professional sites from structured Markdown — landing pages, portfolios, blogs, publications, docs, and more.</strong><br/>
+  <strong>amin3ltd is the open-source framework for building professional sites from structured Markdown — landing pages, portfolios, blogs, publications, docs, and more.</strong><br/>
   Pick a template, let <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=tagline">Hugo Chat AI</a> generate your pages, and deploy anywhere. Every file is plain Markdown you can read, edit, and own forever.
 </p>
 
 <p align="center">
   <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_top"><b>Generate Pages with AI</b></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=cta_top"><b>Browse Templates</b></a>
+  <a href="https://amin3ltd.com/templates/?utm_source=github&utm_medium=readme&utm_content=cta_top"><b>Browse Templates</b></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://marketplace.visualstudio.com/items?itemName=ownable.ownable"><b>Ownable CMS for VS Code</b></a>
 </p>
 
 <div align="center">
 
-  <a href="https://github.com/HugoBlox/kit">
-    <img src="https://img.shields.io/github/stars/HugoBlox/kit?label=Star%20on%20GitHub&logo=github&logoColor=white&style=flat-square&color=181717" alt="GitHub Stars">
+  <a href="https://github.com/amin3ltd/kit">
+    <img src="https://img.shields.io/github/stars/amin3ltd/kit?label=Star%20on%20GitHub&logo=github&logoColor=white&style=flat-square&color=181717" alt="GitHub Stars">
   </a>
   <a href="https://discord.gg/z8wNYzb">
     <img src="https://img.shields.io/discord/722225264733716590?label=Discord&logo=discord&logoColor=white&style=flat-square&color=5865F2" alt="Discord">
@@ -60,7 +60,7 @@
 
 **1. 🎨 Pick a template**
 
-Choose a [template](https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=how_it_works) or scaffold with the CLI.
+Choose a [template](https://amin3ltd.com/templates/?utm_source=github&utm_medium=readme&utm_content=how_it_works) or scaffold with the CLI.
 
 Landing pages, portfolios, blogs, research sites, docs — ready in seconds.
 
@@ -88,11 +88,11 @@ No database. No runtime. Free hosting.
 
 ---
 
-## 🏆 Why HugoBlox
+## 🏆 Why amin3ltd
 
-Every other tool makes you choose. HugoBlox doesn't.
+Every other tool makes you choose. amin3ltd doesn't.
 
-| | **AI site builders** (Lovable, v0, Bolt) | **CMS platforms** (WordPress, Webflow) | **HugoBlox** |
+| | **AI site builders** (Lovable, v0, Bolt) | **CMS platforms** (WordPress, Webflow) | **amin3ltd** |
 | :--- | :---: | :---: | :---: |
 | AI generates your pages | Yes | No | **Yes** |
 | You own the output as readable files | No — React code | No — locked in a database | **Yes — plain Markdown** |
@@ -103,17 +103,17 @@ Every other tool makes you choose. HugoBlox doesn't.
 | Open source | No | No | **Yes — MIT licensed** |
 
 > [!IMPORTANT]
-> **The pitch:** other tools generate code you can't maintain or lock your content in a database you can't leave. HugoBlox gives you AI-generated pages as plain Markdown on a Tailwind + Hugo stack — readable, portable, and yours.
+> **The pitch:** other tools generate code you can't maintain or lock your content in a database you can't leave. amin3ltd gives you AI-generated pages as plain Markdown on a Tailwind + Hugo stack — readable, portable, and yours.
 
 ---
 
 ## 🧱 What you can build
 
 <p align="center">
-  <img src="./.github/media/templates.webp" alt="Sites built with HugoBlox" width="900">
+  <img src="./.github/media/templates.webp" alt="Sites built with amin3ltd" width="900">
 </p>
 
-HugoBlox includes **20+ structured content types** with proper front matter, metadata, and layouts. Tell Hugo Chat what you need and it generates the right one:
+amin3ltd includes **20+ structured content types** with proper front matter, metadata, and layouts. Tell Hugo Chat what you need and it generates the right one:
 
 - 🚀 **Landing pages** — hero, features, pricing, testimonials, CTA sections via the block system
 - 📝 **Blogs & articles** — posts with tags, categories, authors, and SEO metadata
@@ -127,7 +127,7 @@ HugoBlox includes **20+ structured content types** with proper front matter, met
 - 🔬 **Jupyter notebooks & LaTeX** — render `.ipynb` and math-heavy pages natively
 
 <p align="center">
-  <a href="https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=cta_templates"><b>Browse all templates</b></a>
+  <a href="https://amin3ltd.com/templates/?utm_source=github&utm_medium=readme&utm_content=cta_templates"><b>Browse all templates</b></a>
 </p>
 
 ---
@@ -140,14 +140,14 @@ HugoBlox includes **20+ structured content types** with proper front matter, met
 
 > [!TIP]
 > Pick a template and launch in your browser in 60 seconds:
-> [**Browse templates**](https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=get_started)
+> [**Browse templates**](https://amin3ltd.com/templates/?utm_source=github&utm_medium=readme&utm_content=get_started)
 
 **Option B: Use the CLI** (full control)
 
 ```bash
 # Requires Hugo Extended & Node.js
-npm install -g hugoblox
-hugoblox create site
+npm install -g amin3ltd
+amin3ltd create site
 ```
 
 ### Step 2: Customize with AI + visual editing
@@ -158,7 +158,7 @@ hugoblox create site
 
 **Hugo Chat** — AI page generation
 
-Describe what you need in plain English. Hugo Chat generates structured Hugo pages with correct front matter, shortcodes, and HugoBlox blocks.
+Describe what you need in plain English. Hugo Chat generates structured Hugo pages with correct front matter, shortcodes, and amin3ltd blocks.
 
 > *"Generate a landing page for my consulting firm with services, testimonials, and a contact form"*
 
@@ -172,7 +172,7 @@ Describe what you need in plain English. Hugo Chat generates structured Hugo pag
 Drag-and-drop blocks, live preview, and YAML validation without leaving your editor. The power of a visual website builder inside VS Code.
 
 1. Install [Ownable CMS](https://marketplace.visualstudio.com/items?itemName=ownable.ownable) from the Marketplace
-2. Open your HugoBlox project
+2. Open your amin3ltd project
 3. Click the Ownable icon to start editing
 
 </td>
@@ -198,15 +198,15 @@ Drag-and-drop blocks, live preview, and YAML validation without leaving your edi
 - ✅ **Future-proof.** Markdown has been readable since 2004. Your content will outlast any platform.
 
 > [!IMPORTANT]
-> *"Every AI website builder generates React code you'll throw away in six months. Every CMS locks your content in a database you'll never migrate. HugoBlox is the gap between them."*
+> *"Every AI website builder generates React code you'll throw away in six months. Every CMS locks your content in a database you'll never migrate. amin3ltd is the gap between them."*
 
-**Want more?** Upgrade to [**Pro**](https://hugoblox.com/pricing?utm_source=github&utm_medium=readme&utm_content=plans) for visual editing, AI automations, BibTeX import, and priority support. [Compare plans →](https://hugoblox.com/pricing?utm_source=github&utm_medium=readme&utm_content=plans)
+**Want more?** Upgrade to [**Pro**](https://amin3ltd.com/pricing?utm_source=github&utm_medium=readme&utm_content=plans) for visual editing, AI automations, BibTeX import, and priority support. [Compare plans →](https://amin3ltd.com/pricing?utm_source=github&utm_medium=readme&utm_content=plans)
 
 ---
 
-## 🌍 Who uses HugoBlox
+## 🌍 Who uses amin3ltd
 
-HugoBlox powers sites for **researchers, consultants, founders, developer advocates, and teams** at organizations including:
+amin3ltd powers sites for **researchers, consultants, founders, developer advocates, and teams** at organizations including:
 
 - [NVIDIA Research Labs](https://research.nvidia.com/research-labs)
 - [MIT MetaConscious Group](https://www.metaconscious.org/)
@@ -221,7 +221,7 @@ HugoBlox powers sites for **researchers, consultants, founders, developer advoca
 > *"I described our research areas to Hugo Chat and it generated 30 publication pages with correct BibTeX metadata, team profiles, and a news section. My postdocs were editing their own pages within an hour — it's just Markdown. No CMS training, no tickets to IT."*
 > — **Dr. James Park**, Principal Research Scientist, Applied AI Lab
 
-> *"I've rebuilt my site four times — Jekyll, Gatsby, Next.js, Notion. HugoBlox is the first time I know I won't have to again. My content is plain Markdown. If something better exists in five years, I take my files and leave. Nothing has come close."*
+> *"I've rebuilt my site four times — Jekyll, Gatsby, Next.js, Notion. amin3ltd is the first time I know I won't have to again. My content is plain Markdown. If something better exists in five years, I take my files and leave. Nothing has come close."*
 > — **Marcus Oliveira**, Senior Developer Advocate
 
 ---
@@ -236,7 +236,7 @@ HugoBlox powers sites for **researchers, consultants, founders, developer advoca
 <p align="center">
   <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>Generate Pages with AI</b></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugoblox.com/templates/?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>Browse Templates</b></a>
+  <a href="https://amin3ltd.com/templates/?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>Browse Templates</b></a>
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>Read the Docs</b></a>
 </p>
@@ -246,9 +246,9 @@ HugoBlox powers sites for **researchers, consultants, founders, developer advoca
 ## Community & support
 
 - **Questions?** Join the [Discord](https://discord.gg/z8wNYzb) or search the [Docs](https://docs.ownable.dev/)
-- **Bug?** Open an [Issue](https://github.com/HugoBlox/kit/issues)
+- **Bug?** Open an [Issue](https://github.com/amin3ltd/kit/issues)
 - **Want to contribute?** Read the [Contributing Guide](./CONTRIBUTING.md)
-- **Love it?** [Star this repo](https://github.com/HugoBlox/kit) — it helps others find it
+- **Love it?** [Star this repo](https://github.com/amin3ltd/kit) — it helps others find it
 
 ### Sponsors
 
@@ -262,5 +262,10 @@ Copyright 2016-present [**Lore Labs**](https://lore.tech/?utm_source=github&utm_
 Released under the [MIT License](./LICENSE.md).
 
 <p align="center">
-  <sub>HugoBlox is a trademark of Lore Labs.</sub>
+  <sub>amin3ltd is a trademark of Lore Labs.</sub>
 </p>
+
+## Contact
+- **Email:** [amin3ltd@gmail.com](mailto:amin3ltd@gmail.com)
+- **GitHub:** [github.com/amin3ltd](https://github.com/amin3ltd)
+
